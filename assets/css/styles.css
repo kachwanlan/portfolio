@@ -95,7 +95,7 @@ img {
 
 .section {
   padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 /*===== LAYOUT =====*/
@@ -192,6 +192,7 @@ img {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+  height: 100vh;
 }
 
 .home__data {
@@ -261,6 +262,9 @@ img {
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
+}
+.about__text{
+  font-size: 30px;
 }
 
 .about__img {
@@ -500,6 +504,7 @@ img {
   }
   .about__container {
     padding-top: 2rem;
+    height: 100vh;
   }
   .about__img img {
     width: 300px;
@@ -509,10 +514,12 @@ img {
     column-gap: 2rem;
     align-items: center;
     text-align: initial;
+    height: 100vh;
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
+    height: 100vh;
   }
 }
 
